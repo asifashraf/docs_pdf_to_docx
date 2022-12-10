@@ -1,7 +1,9 @@
 $ python -m venv venv
 $ source venv/bin/activate
-$ pip install -r requirements.txt(While having django in the requirements.txt)
+$ pip install -r requirements.txt
+
+# PDF to DOCX
 
 - put file in the folder 'source.pdf'
-- run $ python main.py
+- run $ python pdf2docx.py
 - wait for file 'target.docx'
